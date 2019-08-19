@@ -1,0 +1,32 @@
+.app {
+    display: inline-block;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(149, 218, 149); 
+
+}
+
+.app .contactForm input {
+    height: 30px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.app .contactForm button {
+    border: none;
+    height: 30px;
+    background-color: rgb(92, 92, 194);
+    color: white;
+    cursor: pointer;
+}
+
+.app .contactForm button:hover {
+    background-color: rgba(92, 92, 194, 0.5);
+}
+
+.app .contactsList .contactItem {
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(90, 170, 90);
+}
