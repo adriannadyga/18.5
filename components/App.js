@@ -30,18 +30,11 @@ var contactForm = {
 var App = React.createClass({
     render: function() {
         return (
-            //parametr className odpowiednik class na elemencie HTML
-            React.createElement('div', {className: 'app'},
-                //nagłówek
-                React.createElement('h1', {}, 'Dodaj kontakt'),
-                //przekazanie obiektów przez ich propsy
-                //do komponentu ContactForm obiekt contactForm
-                React.createElement(ContactForm, {contact: contactForm}),
-                //nagłówek
-                React.createElement('h1', {}, 'Kontakty'),
-                //do komponentu Contacts obiekt contacts
-                React.createElement(Contacts, {items: contacts}, {})
-            )
-        );
+            <div className={'app'}>
+                <h1>Dodaj kontakt</h1>
+                <contactForm contact={contactForm}></contactForm>
+                <Contacts items={contacts}></Contacts>
+            </div>
+        )
     }
 });
