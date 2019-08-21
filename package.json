@@ -18,5 +18,9 @@
   "homepage": "https://github.com/adriannadyga/18.5#readme",
   "dependencies": {
     "babel-standalone": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-env": "^1.7.0"
   }
 }
